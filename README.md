@@ -35,7 +35,7 @@ Concevoir une application Web JEE en utilisant Spring MVC, Thymeleaf et Spring D
 <img src="captures/Formulaire d'add.png">
 
 <h4><li>Les action delete et edit</li></h4>
-<img src="captures/Action_delete_edite.png">
+<img src="captures/Action_delete_edit.png">
 </ul>
 <h3>
 <li>Sécuriser cette application en intégrant un système d'authentification basé sur Spring security avec les trois stratégies: 
@@ -128,5 +128,4 @@ Cette application Spring Boot, dotée de Spring Security, propose une gestion ro
 </ul>
 </ul>
 </ul>
-#   H o p i t a l _ w e b _ s p r i n g b o o t  
- 
+#
