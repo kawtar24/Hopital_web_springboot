@@ -12,7 +12,7 @@ L'objectif final de ce projet est de fournir une application web opérationnelle
 Concevoir une application Web JEE en utilisant Spring MVC, Thymeleaf et Spring Data JPA pour la gestion des patients nécessite la mise en œuvre des fonctionnalités suivantes :
 </p>
 <ul>
-<li>Stocker les patiens dans H2 DataBase puis dans MySQL</li>
+<li>Stocker les patiens dans MySQL</li>
 <li>Afficher les patients</li>
 <li>Chercher les patients</li>
 <li>Ajouter un patient</li>
