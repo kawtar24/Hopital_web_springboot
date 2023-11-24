@@ -38,11 +38,10 @@ Concevoir une application Web JEE en utilisant Spring MVC, Thymeleaf et Spring D
 <img src="captures/Action_delete_edit.png">
 </ul>
 <h3>
-<li>Sécuriser cette application en intégrant un système d'authentification basé sur Spring security avec les trois stratégies: 
+<li>Sécuriser  avec integration de système d'authentification basé sur Spring security: 
 </li>
 </h3>
 <ul>
-<
 <li>
 @Configuration : Indique que la classe est une configuration Spring, permettant la définition de beans et de configurations.
 </li>
@@ -66,9 +65,7 @@ private UserDetailServiceImpl userDetailServiceImpl; : Un service personnalisé 
 </li>
 </ul>
 <br>
-<p>
-La classe SecurityConfig agit comme une configuration centralisée pour la sécurité de l'application Spring. Elle définit les stratégies d'authentification, les gestionnaires de détails d'utilisateurs, et configure la sécurité des requêtes HTTP. La classe utilise une combinaison de configurations en mémoire (InMemoryUserDetailsManager) et basées sur une base de données (JdbcUserDetailsManager). Elle spécifie également des règles d'autorisation pour certaines URL, la gestion des sessions, la redirection en cas d'erreurs d'accès, et elle configure le service UserDetailServiceImpl comme gestionnaire des détails d'utilisateur personnalisé. En résumé, elle orchestre l'ensemble des mécanismes de sécurité de l'application web.
-</p>
+
 <h4><li>InMemoryAuthentication dans SecurityConfig</li></h4>
 <ul>
 <li>
